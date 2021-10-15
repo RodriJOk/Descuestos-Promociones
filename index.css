@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Georama', sans-serif;
+}
+
+.header{
+    padding: 35px;
+    border: 1px solid red;
+    text-align: center;
+}
+
+.header h1{
+    font-size: 60px;
+    font-weight: 800;
+}
+
+.header p{
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 10px solid peru;
+    border-radius: 35px;
+    width: 70%;
+    margin: 0 auto;
+    height: 600px;
+    padding: 0px 20px;
+}
+
+.container h2{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    padding: 40px 0px;
+    text-decoration: underline;
+}
+
+.form{
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.form label{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.form div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.form div input{
+    font-size: 30px;
+    height: 35px;
+    width: 100%;
+    margin: 0 30px;
+    border: none;
+    border-bottom: 3px solid grey;
+}
+
+.form div input:focus{
+    text-decoration: none;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid grey;
+    font-size: 30px;
+    height: 35px;
+}
+
+.form button{
+    margin: 0 auto;
+    height: 40px;
+    font-size: 20px;
+    width: 50%;
+    border-radius: 15px;
+}
+
+.form p{
+    font-size: 30px;
+    font-weight: 800;
+}
